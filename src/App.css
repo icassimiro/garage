@@ -110,8 +110,9 @@ a {
 
 
 }
-.wppi{
-  font-size:27px;
+
+.wppi {
+  font-size: 27px;
 }
 
 .type {
@@ -337,99 +338,130 @@ a {
 }
 
 @media screen and (max-width: 900px) {
-  .hr{
-    width: 600px ;
+  .hr {
+    width: 600px;
   }
-  .text{  
+
+  .text {
     width: 500px;
   }
-  .list{
+
+  .list {
     flex-direction: column-reverse;
   }
-  .bmw{
+
+  .bmw {
     width: 450px;
   }
-  .bus{
+
+  .bus {
     width: 350px;
   }
 }
-@media screen and (max-width: 900px){
-  .hr{
+
+@media screen and (max-width: 900px) {
+  .hr {
     width: 350px;
   }
-  .bmw{
+
+  .bmw {
     width: 400px;
   }
-  .bus{
+
+  .bus {
     width: 300px;
   }
-  .text{  
+
+  .text {
     width: 430px;
-    font-size:27px;
+    font-size: 27px;
   }
 }
 
 
-@media screen and (max-width: 432px){
-  .bmw{
+@media screen and (max-width: 432px) {
+  .bmw {
     width: 340px;
   }
-  .hr{
+
+  .hr {
     height: 0.1vh;
   }
-  .bus{
+
+  .bus {
     width: 260px;
   }
-  .infos{
+
+  .infos {
     width: 80%;
   }
+
   .divtop {
 
-   
+
     padding-left: 1.7rem;
-  
+
   }
-  
-  .select { 
-  
+
+  .select {
+
     padding-right: 1.7rem;
 
-  
+  }
+  .km{
+   height:2.7vh;
+  }
+  .cor{
+    height:2.7vh;
+   }
+   .ano{
+    height:2.7h;
+   }
+   .cond{
+    height:2.7vh;
+   }
 
+  .text {
+    width: 360px;
+    font-size: 23px;
+    font-weight: 300;
+  }
 }
-.text{
-  width: 360px;
-  font-size:23px; font-weight: 300;
-}
-}
-@media screen and (max-width: 414px){
-  .bmw{
+
+@media screen and (max-width: 414px) {
+  .bmw {
     width: 320px;
   }
-  .bus{
+
+  .bus {
     width: 230px;
   }
-  .hr{
+
+  .hr {
     width: 280px;
   }
-  .text{
+
+  .text {
     width: 300px;
     font-size: 20px;
-   
+
   }
 
 }
-@media screen and (max-width: 390px){
-  .type{
-    font-size:21px;
-    
 
-  
+@media screen and (max-width: 390px) {
+  .type {
+    font-size: 21px;
+
+
+
   }
-  .bmw{
+
+  .bmw {
     width: 290px;
   }
-  .bus{
+
+  .bus {
     width: 220px;
   }
 
