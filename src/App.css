@@ -304,6 +304,7 @@ a {
 
 .bus {
   width: 400px;
+  filter: brightness(70%);
 }
 
 .divbus {
