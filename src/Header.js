@@ -1,5 +1,6 @@
 import bmw from "./Images/bmw.png";
 import icon from "./Images/icon.png";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 export default function Header() {
 
@@ -20,13 +21,13 @@ export default function Header() {
                     <h3 className="cor">Cor</h3>
                     <h3 className="cor1">Preta</h3>
                     <h3 className="cond">Condição</h3>
-                    <h3 className="cond1">Completamente revisada</h3>
+                    <h3 className="cond1">Completamente revisado</h3>
                  
-                        <div className="divbtn"><a target="_blank" href="https://drive.google.com/file/d/1xTqos3rH2A20DP3bjuqHwsvYuIOuKYHn/view">
+                        <div className="divbtn"><a target="_blank" href="https://drive.google.com/file/d/14j02hJo5rwY5NGl9p8htsTzQ8Baaqq-t/view?usp=sharing">
                             <button className="btn">VISUALIZAR VEÍCULO</button>
                             </a>
                             <a target="_blank" href="https://wa.me/31997188046">
-                            <button className="btn1">WPP</button>
+                            <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
                             </a>
                         </div>
                
@@ -49,13 +50,13 @@ export default function Header() {
                     <h3 className="cor">Cor</h3>
                     <h3 className="cor1">Preta</h3>
                     <h3 className="cond">Condição</h3>
-                    <h3 className="cond1">Completamente revisada</h3>
+                    <h3 className="cond1">Completamente revisado</h3>
                  
-                        <div className="divbtn"><a target="_blank" href="https://drive.google.com/file/d/1xTqos3rH2A20DP3bjuqHwsvYuIOuKYHn/view">
+                        <div className="divbtn"><a target="_blank" href="https://drive.google.com/file/d/14j02hJo5rwY5NGl9p8htsTzQ8Baaqq-t/view?usp=sharing">
                             <button className="btn">VISUALIZAR VEÍCULO</button>
                             </a>
                             <a target="_blank" href="https://wa.me/31997188046">
-                            <button className="btn1">WPP</button>
+                            <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
                             </a>
                         </div>
                
@@ -78,19 +79,23 @@ export default function Header() {
                     <h3 className="cor">Cor</h3>
                     <h3 className="cor1">Preta</h3>
                     <h3 className="cond">Condição</h3>
-                    <h3 className="cond1">Completamente revisada</h3>
+                    <h3 className="cond1">Completamente revisado</h3>
                  
-                        <div className="divbtn"><a target="_blank" href="https://drive.google.com/file/d/1xTqos3rH2A20DP3bjuqHwsvYuIOuKYHn/view">
+                        <div className="divbtn"><a target="_blank" href="https://drive.google.com/file/d/14j02hJo5rwY5NGl9p8htsTzQ8Baaqq-t/view?usp=sharing">
                             <button className="btn">VISUALIZAR VEÍCULO</button>
                             </a>
                             <a target="_blank" href="https://wa.me/31997188046">
-                            <button className="btn1">WPP</button>
+                            <button className="btn1"><IoLogoWhatsapp className="wppi"  /></button>
                             </a>
                         </div>
                
                 </div>
                 <img className="bmw" src={bmw}></img>
                 
+            </div>
+            <div className="divhr">
+                <hr className="hr"></hr>
+
             </div>
             <div className="divdireitos"><h3 className="direitos">© 2024 GARAGE.</h3></div>
         

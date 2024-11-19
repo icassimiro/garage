@@ -39,7 +39,8 @@
 nav {
   background-color: black;
 }
-a{
+
+a {
   text-decoration: none;
   cursor: pointer;
   border: none;
@@ -47,7 +48,7 @@ a{
 
 .cars {
   width: 100%;
-  height: 260vh;
+  height: 100%;
   background-image: url("./Images/noised8.png");
   padding-top: 5rem;
 
@@ -91,7 +92,7 @@ a{
 .btn1 {
   background-color: #00FF00;
   width: 70px;
-  height: 5.5vh;
+  height: 6.5vh;
   color: #f2f2f2;
   border: none;
   border-radius: 4px;
@@ -109,6 +110,9 @@ a{
 
 
 }
+.wppi{
+  font-size:27px;
+}
 
 .type {
   font-size: 24px;
@@ -116,8 +120,8 @@ a{
 
   font-weight: 800;
 
-  color:#181818;
-height: 5vh;
+  color: #181818;
+  height: 5vh;
   font-style: italic;
 
 
@@ -126,59 +130,76 @@ height: 5vh;
 .km {
   font-weight: 600;
   font-size: 20px;
-  letter-spacing: 0.5px;  
-  color:#181818;
+  letter-spacing: 0.5px;
+  color: #181818;
   height: 3vh;
 }
-.km1{font-weight: 300;
+
+.km1 {
+  font-weight: 300;
   font-size: 16px;
-  letter-spacing: 0.5px;  
-  color:#181818;  
+  letter-spacing: 0.5px;
+  color: #181818;
 
 }
-.ano{  font-weight: 600;
+
+.ano {
+  font-weight: 600;
   font-size: 20px;
-  letter-spacing: 0.5px;  
-  color:#181818;    height: 3vh;
+  letter-spacing: 0.5px;
+  color: #181818;
+  height: 3vh;
 
 }
-.ano1{font-weight: 300;
+
+.ano1 {
+  font-weight: 300;
   font-size: 16px;
-  letter-spacing: 0.5px;  
-  color:#181818;  
+  letter-spacing: 0.5px;
+  color: #181818;
 
 }
-.cond{  font-weight: 600;
+
+.cond {
+  font-weight: 600;
   font-size: 20px;
-  letter-spacing: 0.5px;  
-  color:#181818;    height: 3vh;
+  letter-spacing: 0.5px;
+  color: #181818;
+  height: 3vh;
 
 
 }
-.cond1{font-weight: 300;
+
+.cond1 {
+  font-weight: 300;
   font-size: 16px;
-  letter-spacing: 0.5px;  
-  color:#181818;  
+  letter-spacing: 0.5px;
+  color: #181818;
   padding-bottom: 0.4rem;
 
 }
 
-.cor{  font-weight: 600;
+.cor {
+  font-weight: 600;
   font-size: 20px;
-  letter-spacing: 0.5px;  
-  color:#181818;    height: 3vh;
+  letter-spacing: 0.5px;
+  color: #181818;
+  height: 3vh;
 
 }
-.cor1{font-weight: 300;
+
+.cor1 {
+  font-weight: 300;
   font-size: 16px;
-  letter-spacing: 0.5px;    height: 3vh;
-  color:#181818;  
+  letter-spacing: 0.5px;
+  height: 3vh;
+  color: #181818;
 
 }
 
 .hr {
   width: 1000px;
-  background-color:#181818;
+  background-color: #181818;
 
 
 
@@ -209,14 +230,15 @@ height: 5vh;
   width: 100%;
   padding-right: 3rem;
   gap: 1.5rem;
- 
+
 }
 
 .click {
   font-size: 13px;
 
   letter-spacing: 0.3px;
-  font-weight: 800;  color:#f2f2f2;
+  font-weight: 800;
+  color: #f2f2f2;
   font-style: italic;
 }
 
@@ -224,8 +246,8 @@ height: 5vh;
   font-size: 20px;
   letter-spacing: 0.5px;
   font-weight: 200;
-  color:#f2f2f2;
-  font-style:italic;
+  color: #f2f2f2;
+  font-style: italic;
 }
 
 .divtext {
@@ -244,9 +266,10 @@ height: 5vh;
   font-size: 32px;
   font-weight: 200;
   font-style: italic;
-  color:#181818;
+  color: #181818;
 
 }
+
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -265,11 +288,149 @@ height: 5vh;
   font-weight: bold;
   height: 6vh;
 }
-.divdireitos{
+
+.divdireitos {
   display: flex;
   justify-content: center;
-  padding-top:7rem;
+  padding-top: 3rem;
 }
-.direitos{font-size:11px;
-font-weight: 300;
-font-style: italic;}
+
+.direitos {
+  font-size: 11px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.bus {
+  width: 400px;
+}
+
+.divbus {
+
+  width: 100%;
+  height: 100%;
+  background-image: url("./Images/noised8.png");
+  padding-top: 5rem;
+
+
+}
+
+.iconb {
+  width: 51px;
+}
+
+@media screen and (max-width: 1200px) {
+  .bmw {
+    width: 400px;
+
+  }
+
+  .hr {
+    width: 750px;
+  }
+
+  .bus {
+    width: 300px;
+  }
+
+
+}
+
+@media screen and (max-width: 900px) {
+  .hr{
+    width: 600px ;
+  }
+  .text{  
+    width: 500px;
+  }
+  .list{
+    flex-direction: column-reverse;
+  }
+  .bmw{
+    width: 450px;
+  }
+  .bus{
+    width: 350px;
+  }
+}
+@media screen and (max-width: 900px){
+  .hr{
+    width: 350px;
+  }
+  .bmw{
+    width: 400px;
+  }
+  .bus{
+    width: 300px;
+  }
+  .text{  
+    width: 430px;
+    font-size:27px;
+  }
+}
+
+
+@media screen and (max-width: 432px){
+  .bmw{
+    width: 340px;
+  }
+  .hr{
+    height: 0.1vh;
+  }
+  .bus{
+    width: 260px;
+  }
+  .infos{
+    width: 80%;
+  }
+  .divtop {
+
+   
+    padding-left: 1.7rem;
+  
+  }
+  
+  .select { 
+  
+    padding-right: 1.7rem;
+
+  
+
+}
+.text{
+  width: 360px;
+  font-size:23px; font-weight: 300;
+}
+}
+@media screen and (max-width: 414px){
+  .bmw{
+    width: 320px;
+  }
+  .bus{
+    width: 230px;
+  }
+  .hr{
+    width: 280px;
+  }
+  .text{
+    width: 300px;
+    font-size: 20px;
+   
+  }
+
+}
+@media screen and (max-width: 390px){
+  .type{
+    font-size:21px;
+    
+
+  
+  }
+  .bmw{
+    width: 290px;
+  }
+  .bus{
+    width: 220px;
+  }
+
+}
