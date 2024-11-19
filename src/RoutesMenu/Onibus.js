@@ -2,9 +2,13 @@ import bus from "../Images/bus.png";
 import benz from "../Images/benz.png";
 import Top from "../Top"; 
 import { IoLogoWhatsapp } from "react-icons/io";
+import Scroll from "../Scroll";
 
 export default function Onibus() {
-    return (<div><Top />
+    return (<div>
+        <Top />
+        <Scroll/>
+    
         <div className="divbus">
             <div className="divtext"><h2 className="text">Carros <strong>importados</strong> elegantes e ônibus perfeitos para seus negócios.
                 <strong> Revisados</strong>, confiáveis e prontos para impressionar. Na <strong>GARAGE</strong>, a <strong>qualidade</strong>    é garantida!
