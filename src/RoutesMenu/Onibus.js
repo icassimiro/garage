@@ -38,6 +38,10 @@ export default function Onibus() {
                 </div>
                 <img className="bus" src={bus}></img>
             </div>
+            <div className="divhr">
+                <hr className="hr"></hr>
+
+            </div>
             <div className="list">
                 <div className="infos">
                     <img className="iconb" src={benz}></img>
@@ -62,6 +66,10 @@ export default function Onibus() {
 
                 </div>
                 <img className="bus" src={bus}></img>
+            </div>
+            <div className="divhr">
+                <hr className="hr"></hr>
+
             </div>
             <div className="list">
                 <div className="infos">
