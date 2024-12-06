@@ -1,8 +1,8 @@
 
-import bus1 from "./Images/bus1.jpg";
-import bus2 from "./Images/bus2.jpg";
-import bus3 from "./Images/bus3.jpg";
-import bus4 from "./Images/bus4.jpg";
+import bmw1 from "./Images/bmw1.jpg";
+import bmw2 from "./Images/bmw2.jpg";
+import bmw3 from "./Images/bmw3.jpg";
+import bmw4 from "./Images/bmw4.jpg";  
 
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
@@ -14,7 +14,7 @@ import "react-awesome-slider/dist/styles.css";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
-const Slidertwo = () => (
+const Sliderthree = () => (
   <div>
 
 
@@ -23,25 +23,25 @@ const Slidertwo = () => (
         <div className="divcarousel">
         
 
-          <img src={bus1} className="docicon" />
+          <img src={bmw1} className="docicon" />
           
         </div>
         <div className="divcarousel">
      
 
-          <img src={bus2} className="docicon" />
+          <img src={bmw2} className="docicon" />
           
         </div>
         <div className="divcarousel">
         
 
-          <img src={bus3} className="docicon" />
+          <img src={bmw3} className="docicon" />
           
         </div>
         <div className="divcarousel">
        
 
-          <img src={bus4} className="docicon" />
+          <img src={bmw4} className="docicon" />
           
         </div>
         
@@ -50,4 +50,4 @@ const Slidertwo = () => (
     </div>
   </div>
 );
-export default Slidertwo;
+export default Sliderthree;

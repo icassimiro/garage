@@ -230,6 +230,9 @@ a {
  
   
 }
+.divtextinfo{
+  padding-top:0.5rem;
+}
 .textbus{
 font-size: 70px;
 }
@@ -348,6 +351,11 @@ font-size: 70px;
   color: #f2f2f2;
   font-style: italic;
 }
+.docmicro{
+  width: 900px;
+  height:70vh;
+  border-radius: 12px;
+}
 
 .divtext {
   width: 100%;
@@ -419,6 +427,11 @@ font-size: 70px;
 
   .bus {
     width: 300px;
+    
+  }
+  .docmicro{
+    width: 600px;
+    height: 45vh;
   }
 
 
@@ -428,27 +441,6 @@ font-size: 70px;
 
 }
 
-@media screen and (max-width: 900px) {
-  .hr {
-    width: 600px;
-  }
-
-  .text {
-    width: 500px;
-  }
-
-  .list {
-    flex-direction: column-reverse;
-  }
-
-  .bmw {
-    width: 450px;
-  }
-
-  .bus {
-    width: 350px;
-  }
-}
 
 @media screen and (max-width: 900px) {
   .hr {
@@ -467,6 +459,10 @@ font-size: 70px;
     width: 430px;
     font-size: 27px;
   }
+  .docmicro{
+    width: 450px;
+    height: 40vh;
+  }
 }
 
 @media screen and (max-width: 500px){
@@ -476,6 +472,11 @@ font-size: 70px;
 }
 .docicon{
   border-radius: 0px;
+}
+.docmicro{
+width: 100%;
+border-radius: 0px;
+height: 100%;
 }
 
 }

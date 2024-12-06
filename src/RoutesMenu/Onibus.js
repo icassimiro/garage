@@ -52,7 +52,7 @@ export default function Onibus() {
                         </div>
                         <div className="divbtnwpp">
                     <h3 className="h3name">WHATSAPP GIOVANI</h3>
-                        <a target="_blank" href="https://wa.me/31997188046">
+                        <a target="_blank" href="https://wa.me/31997149909">
                         
                         
                             <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
@@ -95,7 +95,7 @@ export default function Onibus() {
                         </div>
                         <div className="divbtnwpp">
                     <h3 className="h3name">WHATSAPP GIOVANI</h3>
-                        <a target="_blank" href="https://wa.me/31997188046">
+                        <a target="_blank" href="https://wa.me/31997149909">
                         
                         
                             <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>

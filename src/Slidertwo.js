@@ -1,8 +1,11 @@
 
-import bus1 from "./Images/bus1.jpg";
-import bus2 from "./Images/bus2.jpg";
-import bus3 from "./Images/bus3.jpg";
-import bus4 from "./Images/bus4.jpg";
+
+import micro1 from "./Images/micro1.jpg";
+import micro2 from "./Images/micro2.jpg";
+import micro3 from "./Images/micro3.jpg";
+import micro4 from "./Images/micro4.jpg";
+import micro5 from "./Images/micro5.jpg";
+import micro6 from "./Images/micro6.jpg";
 
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
@@ -18,36 +21,56 @@ const Slidertwo = () => (
   <div>
 
 
-    <div className="divfullslide">
-      <AutoplaySlider play={true} cancelOnInteraction={false} interval={5000} className="autoslider">
-        <div className="divcarousel">
-        
+  <div className="divfullslide">
+    <AutoplaySlider play={true} cancelOnInteraction={false} interval={5000} className="autoslider">
+      
+      <div className="divcarousel">
+   
 
-          <img src={bus1} className="docicon" />
-          
-        </div>
-        <div className="divcarousel">
+        <img src={micro1} className="docmicro" />
+        
+      </div>
+      <div className="divcarousel">
+      
+
+        <img src={micro2} className="docmicro" />
+        
+      </div>
+      <div className="divcarousel">
      
 
-          <img src={bus2} className="docicon" />
-          
-        </div>
-        <div className="divcarousel">
+        <img src={micro4} className="docmicro" />
         
+      </div>
+      <div className="divcarousel">
+     
 
-          <img src={bus3} className="docicon" />
-          
-        </div>
-        <div className="divcarousel">
-       
+     <img src={micro3} className="docmicro" />
+     
+   </div>
+   <div className="divcarousel">
+     
 
-          <img src={bus4} className="docicon" />
-          
-        </div>
-        
-        
-      </AutoplaySlider>
-    </div>
+     <img src={micro4} className="docmicro" />
+     
+   </div>
+   <div className="divcarousel">
+     
+
+     <img src={micro5} className="docmicro" />
+     
+   </div>
+   <div className="divcarousel">
+     
+
+     <img src={micro6} className="docmicro" />
+     
+   </div>
+   
+      
+      
+    </AutoplaySlider>
   </div>
+</div>
 );
 export default Slidertwo;
