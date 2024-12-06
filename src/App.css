@@ -476,6 +476,7 @@ font-size: 70px;
 }
 .type{
   font-size: 21px;
+  height: 100%;
 }
 
 
@@ -510,10 +511,11 @@ font-size: 70px;
   }
 
   .text {
-    width: 360px;
+    width: 300px;
     font-size: 23px;
     font-weight: 300;
   }
+ 
   
 }
 
@@ -539,12 +541,7 @@ font-size: 70px;
 }
 
 @media screen and (max-width: 390px) {
-  .type {
-    font-size: 21px;
-
-
-
-  }
+  
 
   .bmw {
     width: 290px;
@@ -553,5 +550,12 @@ font-size: 70px;
   .bus {
     width: 220px;
   }
+  .type{
+    width: 230px;
+  
+  }
+ 
+ 
+ 
 
 }
