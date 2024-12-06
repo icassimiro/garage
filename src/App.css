@@ -151,6 +151,7 @@ a {
   color: #181818;
   height: 5vh;
   font-style: italic;
+  
 
 
 
@@ -232,7 +233,9 @@ a {
 }
 .divtextinfo{
   padding-top:0.5rem;
+
 }
+
 .textbus{
 font-size: 70px;
 }
@@ -471,6 +474,10 @@ font-size: 70px;
   border-radius: 0px;
   width: 100%;
 }
+.type{
+  font-size: 21px;
+}
+
 
 
 }
@@ -487,9 +494,7 @@ font-size: 70px;
     width: 260px;
   }
 
-  .infos {
-    width: 80%;
-  }
+  
 
   .divtop {
 
@@ -509,6 +514,7 @@ font-size: 70px;
     font-size: 23px;
     font-weight: 300;
   }
+  
 }
 
 @media screen and (max-width: 414px) {
