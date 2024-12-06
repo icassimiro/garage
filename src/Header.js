@@ -19,14 +19,14 @@ export default function Header() {
             <div className="infos">
                 <div className="divtextinfo">
                     <img className="iconb" src={icon}></img>
-                    <h2 className="type">Ônibus Mercedes & Caio</h2>
+                    <h2 className="type">Bmw 320i</h2>
 
                     <h2 className="ano">Ano</h2>
-                    <h2 className="ano1">2012 & 2013</h2>
+                    <h2 className="ano1">2018</h2>
                     <h3 className="km">KM</h3>
-                    <h3 className="km1">XX.XXXX</h3>
+                    <h3 className="km1">65.000</h3>
                     <h3 className="cor">Cor</h3>
-                    <h3 className="cor1">Verde & Azul  </h3>
+                    <h3 className="cor1">Preta  </h3>
                     <h3 className="cond">Condição</h3>
                     <h3 className="cond1">Completamente revisado</h3>
 

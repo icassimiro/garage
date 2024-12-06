@@ -68,14 +68,14 @@ export default function Onibus() {
             <div className="infos">
                 <div className="divtextinfo">
                     <img className="iconb" src={benz}></img>
-                    <h2 className="type">Ônibus Mercedes & Caio</h2>
+                    <h2 className="type">Ônibus Mercedes Mascarello</h2>
 
                     <h2 className="ano">Ano</h2>
-                    <h2 className="ano1">2012 & 2013</h2>
+                    <h2 className="ano1">2013 & 2014</h2>
                     <h3 className="km">KM</h3>
-                    <h3 className="km1">XX.XXXX</h3>
+                    <h3 className="km1">101.773</h3>
                     <h3 className="cor">Cor</h3>
-                    <h3 className="cor1">Verde & Azul  </h3>
+                    <h3 className="cor1">Branca</h3>
                     <h3 className="cond">Condição</h3>
                     <h3 className="cond1">Completamente revisado</h3>
 
