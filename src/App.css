@@ -469,7 +469,16 @@ font-size: 70px;
   }
 }
 
+@media screen and (max-width: 500px){
+.divcarousel{
+  width: 100%;
 
+}
+.docicon{
+  border-radius: 0px;
+}
+
+}
 @media screen and (max-width: 432px) {
   .bmw {
     width: 340px;
