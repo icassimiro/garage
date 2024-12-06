@@ -1,3 +1,5 @@
+
+
 * {
   font-family: Prompt;
   margin: 0;
@@ -58,13 +60,21 @@ a {
   width: 100%;
   height: 100%;
   background-image: url("./Images/noised8.png");
-  padding-top: 5rem;
+
 
 }
 
 .bmw {
   width: 600px;
   filter: brightness(70%);
+}
+.infos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
 }
 
 .list {
@@ -74,13 +84,16 @@ a {
   gap: 4rem;
   padding-top: 5rem;
 }
-
+.ppt{
+  font-size: 20px;
+ 
+}
 
 
 .btn {
   background-color: #121212;
-  width: 200px;
-  height: 5.5vh;
+  width: 255px;
+  height: 6vh;
   color: #f2f2f2;
   border: none;
   border-radius: 4px;
@@ -93,9 +106,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap:0.4rem
+
 
 
 }
+.divpowerpoint{
+  padding-bottom:1rem;
+} 
 
 .btn1 {
   background-color: #00FF00;
@@ -125,7 +143,7 @@ a {
 }
 
 .type {
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 0.5px;
 
   font-weight: 800;
@@ -135,26 +153,32 @@ a {
   font-style: italic;
 
 
+
+
+
 }
 
 .km {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.5px;
   color: #181818;
   height: 3vh;
 }
 
+
 .km1 {
   font-weight: 300;
   font-size: 16px;
   letter-spacing: 0.5px;
   color: #181818;
-
+  font-style: italic;
 }
-
+.carouselfadel{
+  display: flex;
+}
 .ano {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.5px;
   color: #181818;
@@ -167,11 +191,12 @@ a {
   font-size: 16px;
   letter-spacing: 0.5px;
   color: #181818;
+  font-style: italic;
 
 }
 
 .cond {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.5px;
   color: #181818;
@@ -186,24 +211,38 @@ a {
   letter-spacing: 0.5px;
   color: #181818;
   padding-bottom: 0.4rem;
+  font-style: italic;
 
 }
 
 .cor {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.5px;
   color: #181818;
   height: 3vh;
 
 }
-
+.divtextbus{
+  display: flex;
+  justify-content: center;
+  padding-top:5rem;
+ 
+  
+}
+.textbus{
+font-size: 70px;
+}
+.textcar{
+  font-size: 75px;
+  }
 .cor1 {
   font-weight: 300;
   font-size: 16px;
   letter-spacing: 0.5px;
   height: 3vh;
   color: #181818;
+  font-style: italic;
 
 }
 
@@ -214,15 +253,65 @@ a {
 
 
 }
+.awssld__content {
+ background-color:transparent;
 
-.divhr {
+}
+.divfullslide{
+  height: 100%;
+  padding-top:4rem;
+  background-color: transparent;
+
+}
+.docicon{
+  width: 100%;
+  height: 70vh;
+  border-radius: 12px;
+}
+.awssld__bullets {
+  gap: 2rem;
+  animation: none;
+  background-color: transparent;
+  display: none;
+  
+}
+.awssld__box {
+  background-color: transparent;
+
+}
+.awssld__controls__arrow-right {
+  background-color: transparent;
+}
+.awssld__controls__arrow-left {
+  background-color: transparent;
+}
+
+.awssld--active {
+  background-color: transparent;
+}.autoslider{
+  height: 80vh;
+ 
+}
+.awssld__content {
+  background-image: url("./Images/noised8.png");
+}
+.divcarousel{
   display: flex;
-  justify-content: center;
-  padding-top: 5rem;
-  height: 0.2vh;
+  gap:5rem;
+  align-items: center;
+  background-color: transparent;
+
 
 
 }
+.h3name{
+  height: 2.5vh;
+  font-size:16px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+
 
 .divtop {
 
@@ -265,6 +354,8 @@ a {
   background-color: transparent;
   display: flex;
   justify-content: center;
+  padding-top:4rem;
+
 
 
 }
@@ -280,29 +371,13 @@ a {
 
 }
 
-.back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 45px;
-  background: black;
-  color: #F2F2F2;
-  cursor: pointer;
-  border-radius: 4px;
-  border: none;
-  box-shadow: 0 5px 10px #ffffff;
-  display: flex;
-  align-items: center;
-  background-color: #121212;
 
-  font-weight: bold;
-  height: 6vh;
-}
 
 .divdireitos {
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 0.2rem;
 }
 
 .direitos {
@@ -310,21 +385,23 @@ a {
   font-weight: 300;
   font-style: italic;
 }
-
-.bus {
-  width: 400px;
-  filter: brightness(70%);
+.bus{
+  width: 500px;
 }
+
 
 .divbus {
 
   width: 100%;
   height: 100%;
   background-image: url("./Images/noised8.png");
-  padding-top: 5rem;
 
 
 }
+
+
+
+
 
 .iconb {
   width: 51px;
@@ -343,6 +420,10 @@ a {
   .bus {
     width: 300px;
   }
+
+
+}
+@media screen and (max-width: 1000px){
 
 
 }
