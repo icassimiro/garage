@@ -6,13 +6,15 @@ import icon from "./Images/icon.png";
 import { FaFilePowerpoint } from "react-icons/fa6";
 import { FaCar } from "react-icons/fa";
 import Sliderthree from "./Sliderthree";
+import giovani from "./Images/giovani.png";
 
 export default function Header() {
 
     return (
         <div className="cars">
-            <div className="divtext"><h2 className="text">Carros <strong>importados</strong> elegantes e ônibus perfeitos para seus negócios.
-                <strong> Revisados</strong>, confiáveis e prontos para impressionar. Na <strong>GARAGE</strong>, a <strong>qualidade</strong>    é garantida!
+            <div className="divlogo"><img src={giovani}></img></div>
+            <div className="divtext"><h2 className="text">Encontre seu veículo na <strong>Giovani Autobus</strong>! Oferecemos <strong>ônibus</strong> e <strong>carros</strong> selecionados, com a <strong>qualidade</strong> que você merece. Venha conhecer nosso <strong>
+                estoque</strong>!
             </h2></div>
             <div className="divtextbus"><FaCar className="textcar"/></div>
             <Sliderthree />
