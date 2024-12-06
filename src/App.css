@@ -352,8 +352,8 @@ font-size: 70px;
   font-style: italic;
 }
 .docmicro{
-  width: 900px;
-  height:70vh;
+  width: 350px;
+  height: 70vh;
   border-radius: 12px;
 }
 
@@ -429,10 +429,7 @@ font-size: 70px;
     width: 300px;
     
   }
-  .docmicro{
-    width: 600px;
-    height: 45vh;
-  }
+  
 
 
 }
@@ -459,10 +456,7 @@ font-size: 70px;
     width: 430px;
     font-size: 27px;
   }
-  .docmicro{
-    width: 450px;
-    height: 40vh;
-  }
+ 
 }
 
 @media screen and (max-width: 500px){
@@ -474,10 +468,10 @@ font-size: 70px;
   border-radius: 0px;
 }
 .docmicro{
-width: 100%;
-border-radius: 0px;
-height: 30vh;
+  border-radius: 0px;
+  width: 100%;
 }
+
 
 }
 @media screen and (max-width: 432px) {
