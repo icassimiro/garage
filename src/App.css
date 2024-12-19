@@ -82,6 +82,17 @@ a {
   width: 100%;
   padding-top:2.5rem;
 }
+.divbtnwpp{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.divbtnwpp2{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top:1rem;
+}
 
 .list {
   display: flex;
@@ -138,11 +149,12 @@ a {
   align-items: center;
   justify-content: center;
   margin-top: 0.5rem;
-  animation: carousel 2s alternate infinite ease-in-out;
+  animation: carousel 4s alternate infinite ease-in-out;
 
 
 
 }
+
 
 .wppi {
   font-size: 27px;

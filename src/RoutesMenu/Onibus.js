@@ -38,27 +38,29 @@ export default function Onibus() {
                     <h3 className="cond">Condição</h3>
                     <h3 className="cond1">Completamente revisado</h3>
 
-                    <div className="divbtn"><a target="_blank" href="https://drive.google.com/file/d/11G2uTizlkukljHAcO6Q5W2YCwxmz-kQn/view?usp=sharing">
-                        <div className="divpowerpoint">
-                            <button className="btn">VISUALIZAR POWERPOINT <FaFilePowerpoint className="ppt" /></button>
+                    <div className="divbtn"><a target="_blank" href="https://docs.google.com/presentation/d/1pqdRN59I-HyYTxr1FXRJBvPmve_NV23b/edit?usp=sharing&ouid=100082243876216968996&rtpof=true&sd=true">
+                 <div className="divpowerpoint">
+                        <button className="btn">VISUALIZAR POWERPOINT <FaFilePowerpoint className="ppt" /></button>
                         </div>
                     </a>
-                        <div className="divbtnwpp">
-                            <h3 className="h3name">WHATSAPP ADEMIR</h3>
-                            <a target="_blank" href="https://wa.me/31997188046">
-
-
-                                <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
-
-                            </a>
+                    <div className="divbtnwpp">
+                  
+                        <a target="_blank" href="https://wa.me/31997188046">
+                        
+                      
+                            <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
+                       
+                        </a>
+                        <h3 className="h3name">WHATSAPP ADEMIR</h3>
                         </div>
-                        <div className="divbtnwpp">
-                            <h3 className="h3name">WHATSAPP GIOVANI</h3>
-                            <a target="_blank" href="https://wa.me/31997149909">
-
-
-                                <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
-                            </a>
+                        <div className="divbtnwpp2">
+                   
+                        <a target="_blank" href="https://wa.me/31997149909">
+                        
+                        
+                            <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
+                        </a>
+                        <h3 className="h3name">WHATSAPP GIOVANI</h3>
                         </div>
                     </div>
                 </div>
@@ -80,28 +82,29 @@ export default function Onibus() {
                     <h3 className="cor1">Branca</h3>
                     <h3 className="cond">Condição</h3>
                     <h3 className="cond1">Completamente revisado</h3>
-
-                    <div className="divbtn"><a target="_blank" href="https://drive.google.com/file/d/11G2uTizlkukljHAcO6Q5W2YCwxmz-kQn/view?usp=sharing">
-                        <div className="divpowerpoint">
-                            <button className="btn">VISUALIZAR POWERPOINT <FaFilePowerpoint className="ppt" /></button>
+                    <div className="divbtn"><a target="_blank" href="https://docs.google.com/presentation/d/1jIAuycwuzcVi6q7Dd--W7ADMY83-Yt4_/edit?usp=sharing&ouid=100082243876216968996&rtpof=true&sd=true">
+                 <div className="divpowerpoint">
+                        <button className="btn">VISUALIZAR POWERPOINT <FaFilePowerpoint className="ppt" /></button>
                         </div>
                     </a>
-                        <div className="divbtnwpp">
-                            <h3 className="h3name">WHATSAPP ADEMIR</h3>
-                            <a target="_blank" href="https://wa.me/31997188046">
-
-
-                                <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
-
-                            </a>
+                    <div className="divbtnwpp">
+                  
+                        <a target="_blank" href="https://wa.me/31997188046">
+                        
+                      
+                            <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
+                       
+                        </a>
+                        <h3 className="h3name">WHATSAPP ADEMIR</h3>
                         </div>
-                        <div className="divbtnwpp">
-                            <h3 className="h3name">WHATSAPP GIOVANI</h3>
-                            <a target="_blank" href="https://wa.me/31997149909">
-
-
-                                <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
-                            </a>
+                        <div className="divbtnwpp2">
+                   
+                        <a target="_blank" href="https://wa.me/31997149909">
+                        
+                        
+                            <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
+                        </a>
+                        <h3 className="h3name">WHATSAPP GIOVANI</h3>
                         </div>
                     </div>
                 </div>
