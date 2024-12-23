@@ -1,4 +1,5 @@
 import benz from "../Images/benz.png";
+import volare from "../Images/volare.png";
 import Top from "../Top";
 import { IoLogoWhatsapp } from "react-icons/io";
 
@@ -120,7 +121,7 @@ export default function Onibus() {
             
             <div className="infos">
                 <div className="divtextinfo">
-                    <img className="iconb" src={benz}></img>
+                    <img className="iconv" src={volare}></img>
                     <h2 className="type">Micro Ônibus Volare Rodoviário 4x4</h2>
 
                     <h2 className="ano">Ano</h2>

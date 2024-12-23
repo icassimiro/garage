@@ -503,6 +503,9 @@ opacity: 0.2;
 .iconb {
   width: 51px;
 }
+.iconv {
+  width: 61px;
+}
 
 @media screen and (max-width: 1200px) {
   .bmw {
