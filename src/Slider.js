@@ -8,45 +8,68 @@ import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 
+import bmw1d from "./Images/bmw1d.jpg";
+import bmw2d from "./Images/bmw2d.jpg";
+import bmw3d from "./Images/bmw3d.jpg";
+import bmw4d from "./Images/bmw4d.jpg";  
 
 
 
 
-const AutoplaySlider = withAutoplay(AwesomeSlider);
-
-const Slider = () => (
 
 
-  <div className="divfullslide">
-    <AutoplaySlider play={true} cancelOnInteraction={false} interval={7000} className="autoslider">
-      <div className="divcarousel">
 
 
-        <img src={bus1} className="docicon" />
-
-      </div>
-      <div className="divcarousel">
 
 
-        <img src={bus2} className="docicon" />
-
-      </div>
-      <div className="divcarousel">
 
 
-        <img src={bus3} className="docicon" />
+export default function Slider() {
+  const AutoplaySlider = withAutoplay(AwesomeSlider);
 
-      </div>
-      <div className="divcarousel">
-
-
-        <img src={bus4} className="docicon" />
-
-      </div>
+ 
 
 
-    </AutoplaySlider>
-  </div>
 
-);
-export default Slider;
+  return (
+
+<div className="slideheight">
+
+    <div className="divfullslide">
+      <AutoplaySlider play={true} cancelOnInteraction={false} interval={6000} className="autoslider">
+        <div className="divcarousel" >
+
+
+          <img src={bus1} className="docicon" />
+
+        </div>
+        <div className="divcarousel">
+
+
+          <img src={bus2} className="docicon" />
+
+        </div>
+        <div className="divcarousel" >
+
+
+          <img src={bus3} className="docicon" />
+
+        </div>
+        <div className="divcarousel" >
+
+
+          <img src={bus4} className="docicon" />
+
+        </div>
+    
+
+
+      </AutoplaySlider>
+   
+    
+    </div>
+
+    </div>
+
+  )
+}

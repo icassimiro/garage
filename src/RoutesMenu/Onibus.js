@@ -6,16 +6,16 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import Slider from "../Slider";
 import Slidertwo from "../Slidertwo";
 import { FaBusAlt } from "react-icons/fa";
-import { FaFilePowerpoint } from "react-icons/fa6";
+import { FaCamera } from "react-icons/fa";
 import giovani from "../Images/giovani.png";
 
 
 export default function Onibus() {
-    return (<div>
-        <Top />
-
-
-
+    return (
+      
+    <div>
+          <Top/>
+     
         <div className="divbus">
             <div className="divlogo"><img src={giovani}></img></div>
             <div className="divtext"><h2 className="text">Encontre seu veículo na <strong>Giovani Autobus</strong>! Oferecemos <strong>ônibus</strong> e <strong>carros</strong> selecionados, com a <strong>qualidade</strong> que você merece. Venha conhecer nosso <strong>
@@ -38,9 +38,9 @@ export default function Onibus() {
                     <h3 className="cond">Condição</h3>
                     <h3 className="cond1">Completamente revisado</h3>
 
-                    <div className="divbtn"><a target="_blank" href="https://docs.google.com/presentation/d/1pqdRN59I-HyYTxr1FXRJBvPmve_NV23b/edit?usp=sharing&ouid=100082243876216968996&rtpof=true&sd=true">
+                    <div className="divbtn"><a target="_blank" href="https://postimg.cc/BXhqRd8d">
                  <div className="divpowerpoint">
-                        <button className="btn">VISUALIZAR POWERPOINT <FaFilePowerpoint className="ppt" /></button>
+                        <button className="btn">VISUALIZAR FOTOS <FaCamera className="ppt" /></button>
                         </div>
                     </a>
                     <div className="divbtnwpp">
@@ -66,9 +66,10 @@ export default function Onibus() {
                 </div>
 
             </div>
-
-
+            <div className="divhr"><hr className="hr"></hr></div>
+            <div className="divtextbus"><FaBusAlt className="textbus" /></div>
             <Slidertwo />
+            
             <div className="infos">
                 <div className="divtextinfo">
                     <img className="iconb" src={benz}></img>
@@ -82,9 +83,9 @@ export default function Onibus() {
                     <h3 className="cor1">Branca</h3>
                     <h3 className="cond">Condição</h3>
                     <h3 className="cond1">Completamente revisado</h3>
-                    <div className="divbtn"><a target="_blank" href="https://docs.google.com/presentation/d/1jIAuycwuzcVi6q7Dd--W7ADMY83-Yt4_/edit?usp=sharing&ouid=100082243876216968996&rtpof=true&sd=true">
+                    <div className="divbtn"><a target="_blank" href="https://postimg.cc/QKsPMxz0">
                  <div className="divpowerpoint">
-                        <button className="btn">VISUALIZAR POWERPOINT <FaFilePowerpoint className="ppt" /></button>
+                        <button className="btn">VISUALIZAR FOTOS<FaCamera className="ppt" /></button>
                         </div>
                     </a>
                     <div className="divbtnwpp">

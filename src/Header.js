@@ -21,7 +21,7 @@ export default function Header() {
             <div className="infos">
                 <div className="divtextinfo">
                     <img className="iconb" src={icon}></img>
-                    <h2 className="type">Bmw 320i</h2>
+                    <h2 className="type">BMW 320i</h2>
 
                     <h2 className="ano">Ano</h2>
                     <h2 className="ano1">2018</h2>
@@ -32,9 +32,9 @@ export default function Header() {
                     <h3 className="cond">Condição</h3>
                     <h3 className="cond1">Completamente revisado</h3>
 
-                    <div className="divbtn"><a target="_blank" href="https://docs.google.com/presentation/d/1hpYUi1HAXdIPPMyUEtmFcjUIYz9QZmWM/edit?usp=sharing&ouid=100082243876216968996&rtpof=true&sd=true">
+                    <div className="divbtn"><a target="_blank" href="https://postimg.cc/Sn6dq4T2">
                  <div className="divpowerpoint">
-                        <button className="btn">VISUALIZAR POWERPOINT <FaFilePowerpoint className="ppt" /></button>
+                        <button className="btn">VISUALIZAR FOTOS<FaFilePowerpoint className="ppt" /></button>
                         </div>
                     </a>
                     <div className="divbtnwpp">
