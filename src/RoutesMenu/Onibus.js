@@ -45,7 +45,7 @@ export default function Onibus() {
                     </a>
                     <div className="divbtnwpp">
                   
-                        <a target="_blank" href="https://wa.me/31997188046">
+                        <a target="_blank" href="https://ibb.co/99LXqFt">
                         
                       
                             <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
@@ -83,7 +83,7 @@ export default function Onibus() {
                     <h3 className="cor1">Branca</h3>
                     <h3 className="cond">Condição</h3>
                     <h3 className="cond1">Completamente revisado</h3>
-                    <div className="divbtn"><a target="_blank" href="https://postimg.cc/QKsPMxz0">
+                    <div className="divbtn"><a target="_blank" href="https://ibb.co/x1r9CYL">
                  <div className="divpowerpoint">
                         <button className="btn">VISUALIZAR FOTOS<FaCamera className="ppt" /></button>
                         </div>

@@ -7,6 +7,7 @@ import { FaFilePowerpoint } from "react-icons/fa6";
 import { FaCar } from "react-icons/fa";
 import Sliderthree from "./Sliderthree";
 import giovani from "./Images/giovani.png";
+import { FaCamera } from "react-icons/fa";
 
 export default function Header() {
 
@@ -32,9 +33,9 @@ export default function Header() {
                     <h3 className="cond">Condição</h3>
                     <h3 className="cond1">Completamente revisado</h3>
 
-                    <div className="divbtn"><a target="_blank" href="https://postimg.cc/Sn6dq4T2">
+                    <div className="divbtn"><a target="_blank" href="https://ibb.co/B2p9tJB">
                  <div className="divpowerpoint">
-                        <button className="btn">VISUALIZAR FOTOS<FaFilePowerpoint className="ppt" /></button>
+                        <button className="btn">VISUALIZAR FOTOS<FaCamera className="ppt" /></button>
                         </div>
                     </a>
                     <div className="divbtnwpp">
