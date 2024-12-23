@@ -5,9 +5,11 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 import Slider from "../Slider";
 import Slidertwo from "../Slidertwo";
+
 import { FaBusAlt } from "react-icons/fa";
 import { FaCamera } from "react-icons/fa";
 import giovani from "../Images/giovani.png";
+import Sliderfour from "../Sliderfour";
 
 
 export default function Onibus() {
@@ -109,8 +111,54 @@ export default function Onibus() {
                         </div>
                     </div>
                 </div>
+                
+           
+            </div>
+            <div className="divhr"><hr className="hr"></hr></div>
+            <div className="divtextbus"><FaBusAlt className="textbus" /></div>
+          <Sliderfour/>
+            
+            <div className="infos">
+                <div className="divtextinfo">
+                    <img className="iconb" src={benz}></img>
+                    <h2 className="type">Micro Ônibus Volare Rodoviário 4x4</h2>
+
+                    <h2 className="ano">Ano</h2>
+                    <h2 className="ano1">2021 & 2022</h2>
+              
+                    <h3 className="cor">Cor</h3>
+                    <h3 className="cor1">Prata</h3>
+                    <h3 className="cond">Condição</h3>
+                    <h3 className="cond1">Completamente revisado</h3>
+                    <div className="divbtn"><a target="_blank" href="https://ibb.co/YW4YHGs">
+                 <div className="divpowerpoint">
+                        <button className="btn">VISUALIZAR FOTOS<FaCamera className="ppt" /></button>
+                        </div>
+                    </a>
+                    <div className="divbtnwpp">
+                  
+                        <a target="_blank" href="https://wa.me/31997188046">
+                        
+                      
+                            <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
+                       
+                        </a>
+                        <h3 className="h3name">WHATSAPP ADEMIR</h3>
+                        </div>
+                        <div className="divbtnwpp2">
+                   
+                        <a target="_blank" href="https://wa.me/31997149909">
+                        
+                        
+                            <button className="btn1"><IoLogoWhatsapp className="wppi" /></button>
+                        </a>
+                        <h3 className="h3name">WHATSAPP GIOVANI</h3>
+                        </div>
+                    </div>
+                </div>
 
             </div>
+
 
 
 

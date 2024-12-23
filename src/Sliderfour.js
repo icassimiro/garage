@@ -1,11 +1,11 @@
 
 
-import micro1 from "./Images/micro1.jpg";
-import micro2 from "./Images/micro2.jpg";
-import micro3 from "./Images/micro3.jpg";
-import micro4 from "./Images/micro4.jpg";
-import micro5 from "./Images/micro5.jpg";
-import micro6 from "./Images/micro6.jpg";
+import volare1 from "./Images/volare1.jpg";
+import volare2 from "./Images/volare2.jpg";
+import volare3 from "./Images/volare3.jpg";
+import volare4 from "./Images/volare4.jpg";
+import volare5 from "./Images/volare5.jpg";
+import volare6 from "./Images/volare6.jpg";
 
 
 import AwesomeSlider from "react-awesome-slider";
@@ -18,7 +18,7 @@ import "react-awesome-slider/dist/styles.css";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
-const Slidertwo = () => (
+const Sliderfour = () => (
   <div className="slideheight">
 
 
@@ -28,34 +28,39 @@ const Slidertwo = () => (
       <div className="divcarousel">
    
 
-        <img src={micro1} className="docicon" />
+        <img src={volare1} className="docicon" />
         
       </div>
       <div className="divcarousel">
       
 
-        <img src={micro2} className="docicon" />
+        <img src={volare2} className="docicon" />
         
       </div>
       <div className="divcarousel">
      
 
-        <img src={micro3} className="docicon" />
+        <img src={volare3} className="docicon" />
         
       </div>
       <div className="divcarousel">
      
 
-     <img src={micro4} className="docicon" />
+     <img src={volare4} className="docicon" />
      
    </div>
    <div className="divcarousel">
      
 
-     <img src={micro5} className="docicon" />
+     <img src={volare5} className="docicon" />
      
    </div>
-  
+   <div className="divcarousel">
+     
+
+     <img src={volare6} className="docicon" />
+     
+   </div>
 
   
    
@@ -65,4 +70,4 @@ const Slidertwo = () => (
   </div>
 </div>
 );
-export default Slidertwo;
+export default Sliderfour;

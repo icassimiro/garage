@@ -184,8 +184,11 @@ a {
   font-weight: 800;
 
   color: #181818;
-  height: 5vh;
+  height: 100%;
   font-style: italic;
+  line-height: 100%;
+  padding-bottom:0.4rem;
+
 
 
 
@@ -318,7 +321,7 @@ a {
 
 
 .docicon {
-  width: 450px;
+  width: 420px;
   height: 75vh;
   border-radius: 18px;
 
@@ -574,6 +577,7 @@ opacity: 0.2;
   .type {
     font-size: 21px;
     height: 100%;
+   
   }
 
 
