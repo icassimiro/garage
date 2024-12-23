@@ -21,7 +21,7 @@ const Sliderthree = () => (
 
 
     <div className="divfullslide">
-      <AutoplaySlider play={true} cancelOnInteraction={false} interval={5000} className="autoslider">
+      <AutoplaySlider play={true} cancelOnInteraction={false} interval={12000} className="autoslider">
         <div className="divcarousel">
         
 

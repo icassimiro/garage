@@ -36,7 +36,7 @@ export default function Slider() {
 <div className="slideheight">
 
     <div className="divfullslide">
-      <AutoplaySlider play={true} cancelOnInteraction={false} interval={6000} className="autoslider">
+      <AutoplaySlider play={true} cancelOnInteraction={false} interval={12000} className="autoslider">
         <div className="divcarousel" >
 
 
