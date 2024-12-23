@@ -405,7 +405,7 @@ opacity: 0.2;
   background-color: #121212;
   display: flex;
   align-items: center;
-  padding-left: 3rem;
+  padding-left: 2.3rem;
 
 }
 
@@ -419,9 +419,9 @@ opacity: 0.2;
 }
 
 .click {
-  font-size: 13px;
+  font-size: 15px;
 
-  letter-spacing: 0.3px;
+  letter-spacing: 0.4px;
   font-weight: 800;
   color: #f2f2f2;
   font-style: italic;
@@ -579,6 +579,14 @@ opacity: 0.2;
     height: 100%;
    
   }
+  .select{
+    gap:1.2rem;
+    padding-right: 1.3rem;
+  }
+  .divtop{
+    padding-left: 1.3rem;
+  }
+  
 
 
 
@@ -599,18 +607,9 @@ opacity: 0.2;
 
 
 
-  .divtop {
+ 
 
-
-    padding-left: 1.7rem;
-
-  }
-
-  .select {
-
-    padding-right: 1.7rem;
-
-  }
+  
 
   .text {
     width: 300px;
