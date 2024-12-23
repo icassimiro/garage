@@ -9,7 +9,7 @@ import Slidertwo from "../Slidertwo";
 
 import { FaBusAlt } from "react-icons/fa";
 import { FaCamera } from "react-icons/fa";
-import giovani from "../Images/giovani.png";
+import giovani2 from "../Images/giovani2.png";
 import Sliderfour from "../Sliderfour";
 
 
@@ -20,7 +20,7 @@ export default function Onibus() {
           <Top/>
      
         <div className="divbus">
-            <div className="divlogo"><img src={giovani}></img></div>
+            <div className="divlogo"><img className="imglogo" src={giovani2}></img></div>
             <div className="divtext"><h2 className="text">Encontre seu veículo na <strong>Giovani Autobus</strong>! Oferecemos <strong>ônibus</strong> e <strong>carros</strong> selecionados, com a <strong>qualidade</strong> que você merece. Venha conhecer nosso <strong>
                 estoque</strong>!
             </h2></div>

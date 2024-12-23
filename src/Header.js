@@ -6,14 +6,14 @@ import icon from "./Images/icon.png";
 import { FaFilePowerpoint } from "react-icons/fa6";
 import { FaCar } from "react-icons/fa";
 import Sliderthree from "./Sliderthree";
-import giovani from "./Images/giovani.png";
+import giovani1 from "./Images/giovani2.png";
 import { FaCamera } from "react-icons/fa";
 
 export default function Header() {
 
     return (
         <div className="cars">
-            <div className="divlogo"><img src={giovani}></img></div>
+            <div className="divlogo"><img className="imglogo" src={giovani1}></img></div>
             <div className="divtext"><h2 className="text">Encontre seu veículo na <strong>Giovani Autobus</strong>! Oferecemos <strong>ônibus</strong> e <strong>carros</strong> selecionados, com a <strong>qualidade</strong> que você merece. Venha conhecer nosso <strong>
                 estoque</strong>!
             </h2></div>
