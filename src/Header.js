@@ -33,7 +33,7 @@ export default function Header() {
                     <h3 className="cond">Condição</h3>
                     <h3 className="cond1">Completamente revisado</h3>
 
-                    <div className="divbtn"><a target="_blank" href="https://1drv.ms/b/s!Auq5ugfbEskHhDcy2sLBPwm6An8q?e=yMdiJE">
+                    <div className="divbtn"><a target="_blank" href="https://drive.google.com/file/d/1xTqos3rH2A20DP3bjuqHwsvYuIOuKYHn/view?usp=sharing">
                  <div className="divpowerpoint">
                         <button className="btn">VISUALIZAR FOTOS<FaCamera className="ppt" /></button>
                         </div>
